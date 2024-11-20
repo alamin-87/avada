@@ -1,0 +1,50 @@
+.passion{
+    @apply bg-[#E5E5E5] pb-[20px] lg:pb-[35px]
+}
+.passion_row{
+    @apply pt-[80px] md:pt-[170px] lg:pt-[230px]
+}
+.passion_row1{
+    @apply flex flex-wrap justify-between gap-[20px] md:gap-0
+}
+.row1_heading h2{
+    @apply text-[16px] md:text-[22px] lg:text-[30px] text-[#FF9600] font-Yellowtail font-[300]
+}
+.row1_heading h3{
+    @apply md:w-[263px] lg:w-[407px] text-[24px] md:text-[36px] lg:text-[54px] text-black font-IBM_sans font-[700] mb-[16px] md:mb-[25px]
+}
+.row1_heading hr{
+    @apply bg-[#A0A0A0] w-[50px] h-[2px] md:w-[85px]
+}
+.row1_body p{
+    @apply md:w-[374px] lg:w-[619px] text-[12px] md:text-[16px] lg:text-[18px] text-black font-IBM_sans font-[300]
+     md:mt-[20px] lg:mt-[38px]
+}
+/* =================================== row2=========================== */
+.passion_row2{
+    @apply mt-[40px] md:mt-[50px] lg:mt-[96px] flex flex-wrap items-center justify-center lg:justify-between gap-[20px] lg:gap-0
+}
+.row2_single_card{
+    @apply flex flex-col justify-center items-center
+}
+.row2_single_card h2{
+    @apply w-[232px] md:w-[321px] lg:w-[315px] text-[16px] md:text-[20px] lg:text-[28px] text-black font-IBM_sans font-[700] text-center
+    mt-[20px] mb-[18px] md:mt-[26px] md:mb-[22px] lg:mt-[38px] lg:mb-[32px]
+}
+.row2_single_card p{
+    @apply w-[232px] md:w-[321px] lg:w-[315px] text-[10px] md:text-[12px] lg:text-[18px] text-black font-IBM_sans font-[300] text-center
+}
+.row2_single_card hr{
+    @apply block w-[305px] md:w-[424px] h-[2px] bg-black  mt-[20px] mb-[18px] md:mt-[26px] md:mb-[22px] lg:mt-[38px] lg:mb-[32px]
+}
+.row2_single_card a{
+    @apply text-[12px] md:text-[16px] lg:text-[18px] text-[#FF9600] font-IBM_sans font-[700] hover:text-[#14B9F1] transition-[.4s]
+}
+
+/* ================================= row 3=================================== */
+.passion_row3{
+    @apply flex flex-wrap justify-between mt-[80px] gap-[20px] lg:gap-0
+}
+.passion_row3 img{
+    @apply w-[120px] h-[125px] md:w-[170px] md:h-[175px]
+}

@@ -1,0 +1,49 @@
+.join{
+    @apply bg-[#FF9600]
+}
+.join_row{
+    @apply pt-[20px] pb-[600px] md:pb-[551px] lg:pb-[460px] relative
+}
+.join_row1_text{
+    @apply flex flex-col items-center justify-center
+}
+.join_row1_text img{
+    @apply w-[50px] h-[40px] md:w-[60px] md:h-[50px] lg:w-[100px] lg:h-[70px]
+}
+.join_row1_text h2{
+    @apply text-[20px] md:text-[30px] lg:text-[54px] text-white font-IBM_sans font-[700] text-center mt-[12px] md:mt-[20px] lg:mt-[27px]
+    mb-[20px] md:mb-[30px] lg:mb-[52px]
+}
+.join_row1_text p{
+    @apply text-[12px] md:text-[20px] lg:text-[30px] text-white font-IBM_sans font-[700] text-center
+    mb-[30px] md:mb-[50px] lg:mb-[100px]
+}
+.join_row1_button{
+    @apply flex items-center justify-center gap-[20px]
+}
+.join_row1_button button{
+    @apply bg-[#0C3543] py-[10px] md:py-[14px] lg:py-[23px] px-[12px] md:px-[16px] lg:px-[26px] rounded-[4px] text-[10px] md:text-[12px] lg:text-[18px]
+    text-white font-IBM_sans font-[700] active:scale-[1.1] transition-[.4s]
+}
+.join_row2{
+    @apply absolute flex flex-wrap items-center justify-center gap-[20px] md:gap-[40px] lg:gap-[135px] top-[306px] md:top-[400px] lg:top-[640px]
+}
+.join_row2_card{
+    @apply bg-cover bg-no-repeat bg-center rounded-[10px] md:rounded-[15px]
+}
+.card_text{
+    @apply pt-[80px] md:pt-[100px] lg:pt-[200px] px-[20px] md:px-[30px] lg:px-[62px]
+}
+.join_row2_card h2{
+    @apply text-[18px] md:text-[26px] lg:text-[40px] text-white font-IBM_sans font-[700] 
+}
+.join_row2_card h3{
+    @apply text-[12px] md:text-[18px] lg:text-[28px] text-white font-IBM_sans font-[700] mt-[12px] mb-[20px] lg:mt-[27px] lg:mb-[38px]
+}
+.join_row2_card hr{
+    @apply bg-[#C4C4C4] w-[120px] h-[1px] md:w-[168px] lg:w-[258px] lg:h-[2px]
+}
+.join_row2_card p{
+    @apply text-[10px] md:text-[14px] lg:text-[18px] text-[#A0A0A0] font-IBM_sans font-[300] mt-[12px]  lg:mt-[28px] pb-[12px] md:pb-[16px] lg:pb-[23px]
+    
+}

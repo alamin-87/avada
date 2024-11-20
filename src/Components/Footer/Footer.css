@@ -1,0 +1,36 @@
+.footer_row{
+    @apply flex flex-wrap
+}
+.footer{
+    @apply bg-[#0C3543]
+}
+.footer_text{
+    @apply pt-[40px] lg:pt-[80px] lg:pl-[42px] lg:justify-between justify-center items-center
+}
+.footer_logo img{
+    @apply w-[128px] h-[40px] md:w-[200px] md:h-[60px] lg:w-[246px] lg:h-[75px]
+}
+.footer_body{
+    @apply mt-[40px] mb-[26px] md:mt-[50px] md:mb-[30px] lg:mt-[80px] lg:mb-[52px] flex flex-wrap justify-between lg:gap-[42px] gap-[20px]
+}
+.footer_body button{
+    @apply bg-[#FF9600] py-[10px] px-[27px] text-[12px] md:text-[16px] lg:text-[18px] text-white font-IBM_sans font-[700] lg:w-[138px] active:scale-[1.1] transition-[.4s]
+}
+.footer_body p{
+    @apply w-[300px] md:w-[676px] lg:w-[365px] text-[12px] md:text-[16px] lg:text-[18px] text-white font-IBM_sans font-[300]
+}
+.footer_text hr{
+    @apply h-[2px] w-[300px] md:w-[676px] lg:w-[365px] bg-[#C4C4C4]
+}
+.contact{
+    @apply flex flex-wrap md:gap-[30px] lg:gap-[38px] mt-[30px] mb-[20px] lg:mt-[69px] lg:mb-[40px]
+}
+.contact h2{
+    @apply lg:w-[148px] text-[16px] md:text-[22px] lg:text-[30px] text-white font-IBM_sans font-[700]
+}
+.contact_p p{
+    @apply text-[12px] md:text-[16px] lg:text-[18px] text-white font-IBM_sans font-[300]
+}
+.footer_last p{
+    @apply text-[8px] md:text-[10px] lg:text-[12px] text-white font-IBM_sans font-[300]
+}

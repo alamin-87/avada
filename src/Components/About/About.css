@@ -1,0 +1,13 @@
+.about_row{
+    @apply pt-[120px] md:pt-[200px] lg:pt-[240px] pb-[120px] md:pb-[219px]
+}
+.about_text h2{
+    @apply w-[282px] md:w-[478px] lg:w-[918px] text-[28px] md:text-[42px] lg:text-[72px] text-white font-IBM_sans font-[700] m-auto text-center
+}
+.about_button{
+    @apply flex gap-[16px] md:gap-[57px] mt-[30px] md:mt-[48px] justify-center
+}
+.about_button button{
+    @apply bg-[#FF9600] py-[10px] px-[20px] md:py-[16px] md:px-[40px] lg:py-[20px] lg:px-[40px] text-[12px] md:text-[18px] font-IBM_sans font-[500] rounded-[6px] text-white
+    hover:bg-white hover:text-black transition-[.4s]
+}

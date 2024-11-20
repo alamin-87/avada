@@ -1,0 +1,49 @@
+.advanture{
+    @apply bg-[#E5E5E5]
+}
+.adventure_row{
+    @apply pt-[40px] md:pt-[60px] lg:pt-[80px] pb-[40px] md:pb-[70px]
+}
+.advanture_row1{
+    @apply flex flex-wrap justify-between pb-[60px] md:pb-[116px]
+}
+.advanture_row1_col1 h3{
+    @apply text-[20px] md:text-[30px] text-[#49C4F5] font-Yellowtail font-[400] lg:mt-[23px]
+}
+.advanture_row1_col1 h2{
+    @apply md:w-[375px] lg:w-[595px] text-[26px] md:text-[34px] lg:text-[54px] text-[#222222] font-IBM_sans font-[700]
+}
+.advanture_row1_col1 .span1{
+    @apply block w-[50px] md:w-[70px] lg:w-[90px] h-[1px] bg-black mt-[14px] mb-[20px] lg:mt-[29px] lg:mb-[39px]
+}
+.advanture_row1_col1 .textp{
+    @apply w-[302px] md:w-[587px] lg:w-[615px] text-[12px] md:text-[18px] text-black font-IBM_sans font-[400] mb-[30px] md:mb-[40px] lg:mb-[60px]
+}
+.advanture_row1_col1 .point{
+    @apply flex items-center mt-[12px] lg:mt-[18px]
+}
+.advanture_row1_col1 .point .point_span{
+    @apply w-[12px] h-[12px] md:w-[20px] md:h-[20px] bg-[#C4C4C4] rounded-full 
+}
+.advanture_row1_col1 .point .pointp{
+    @apply text-[12px] md:text-[18px] text-black font-IBM_sans font-[400] ml-[6px]
+}
+.advanture_row1_col1 button{
+    @apply bg-[#FF9600] py-[8px] px-[20px] md:py-[12px] md:px-[30px] lg:py-[18px] lg:px-[36px] rounded-[8px] mt-[28px] md:mt-[38px] mb-[60px] md:mb-[116px]
+    text-[12px] md:text-[18px] text-white font-IBM_sans font-[500] active:scale-[1.1] transition-[.4s]
+}
+.advanture_row1_col2{
+    @apply flex flex-wrap m-auto items-center gap-[20px] lg:gap-[51px]
+}
+.advanture_row2{
+    @apply flex flex-wrap justify-center items-center gap-[20px] lg:gap-[24px]
+}
+.first_count{
+    @apply w-[142px] h-[75px] md:w-[150px] md:h-[80px] lg:w-[312px] lg:h-[150px] flex flex-col justify-center items-center md:pb-[6px] lg:pb-[18px]
+}
+.count_text .count{
+    @apply text-[18px] md:text-[26px] lg:text-[80px] text-black font-IBM_sans font-[700]
+}
+.first_count p{
+    @apply text-[10px] md:text-[18px] text-black font-IBM_sans font-[300]
+}

@@ -1,0 +1,41 @@
+.gallery_row{
+    @apply pt-[60px] md:pt-[100px] lg:pt-[120px]
+}
+.gallery_row1{
+    @apply flex flex-wrap lg:gap-[305px]
+}
+.gallery_row1 .row1_heading h3{
+    @apply text-[14px] md:text-[20px] lg:text-[30px] text-[#FF960B] font-Yellowtail font-[300]
+}
+.gallery_row1 .row1_heading h2{
+    @apply lg:w-[394px] text-[28px] md:text-[35px] lg:text-[54px] text-white font-IBM_sans font-[700] mt-[6px]
+}
+.gallery_row1 .row1_heading hr{
+    @apply w-[60px] md:w-[80px] h-[2px] bg-white mt-[8px] mb-[20px] md:mt-[12px] lg:mt-[22px] lg:mb-[74px]
+}
+.gallery_row1 .row1_p p{
+    @apply w-[310px] md:w-[622px] text-[12px] md:text-[16px] lg:text-[18px] text-white font-IBM_sans font-[300] lg:mt-[37px] mb-[20px] lg:mb-0
+}
+/* ===========================row2================================== */
+.gallery_row2{
+    @apply flex flex-wrap justify-center gap-[20px] lg:gap-[75px]
+}
+.row2_card1{
+    @apply bg-[#0F4152] drop-shadow-md w-[250px] lg:w-[424px] rounded-[15px] overflow-hidden flex flex-col
+}
+.row2_card1 .text{
+    @apply flex flex-col items-center mt-[14px] md:mt-[20px] lg:mt-[36px]
+}
+.row2_card1 .text h2 a{
+    @apply text-[12px] md:text-[20px] lg:text-[30px] text-white hover:text-[#FF9600] font-inter font-[700] transition-[.4s]
+}
+.row2_card1 .text p{
+    @apply text-[10px] md:text-[14px] lg:text-[18px] text-white font-inter font-[300] mt-[8px] md:mt-[10px] lg:mt-[15px] pb-[20px] md:pb-[24px] lg:pb-[45px]
+}
+/* =============================row3============================= */
+.gallery_row3 h3{
+    @apply text-[40px] md:text-[80px] lg:text-[160px] text-white font-arizonia font-[400] mt-[40px] lg:mt-[107px] flex items-center justify-center
+}
+.gallery .last_img img{
+    @apply mt-[20px] lg:mt-[45px] w-screen
+}

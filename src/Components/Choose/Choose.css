@@ -1,0 +1,40 @@
+.choose{
+    @apply bg-[#E5E5E5]
+}
+.choose_row{
+    @apply pt-[140px] md:pt-[200px] lg:pt-[270px]
+}
+.choose_row1{
+    @apply flex flex-col items-center justify-center
+}
+.choose_row1 h3{
+    @apply text-[16px] md:text-[22px] lg:text-[30px] text-[#14B9F1] font-Yellowtail font-[300]
+}
+.choose_row1 h2{
+    @apply text-[16px] md:text-[22px] lg:text-[30px] text-black font-IBM_sans font-[700] my-[12px] md:my-[20px] lg:my-[28px]
+}
+.choose_row1 hr{
+    @apply bg-[#A0A0A0] w-[60px] h-[2px] md:w-[100px]
+}
+.choose_row2{
+    @apply flex flex-wrap justify-between items-center mt-[30px] md:mt-[50px] gap-[20px] lg:gap-0
+}
+.row2_content{
+    @apply flex flex-col items-center justify-center
+}
+.choose_row2 .row2_logo{
+    @apply bg-[#C4C4C4] w-[80px] h-[80px] md:w-[120px] md:h-[120px] lg:w-[150px] lg:h-[150px] rounded-full flex items-center justify-center
+}
+.row2_logo h2{
+    @apply text-black font-[700]
+}
+.row2_text{
+    @apply mt-[30px] md:mt-[40px] lg:mt-[60px]
+}
+.row2_text h2{
+    @apply md:w-[184px] lg:w-[250px] text-[14px] md:text-[18px] lg:text-[24px] text-black font-IBM_sans font-[700]
+}
+.row2_text p{
+    @apply md:w-[184px] lg:w-[275px] text-[12px] md:text-[16px] lg:text-[18px] text-black font-IBM_sans font-[300]
+    mt-[15px] md:mt-[30px]
+}
